@@ -33,7 +33,7 @@ p{
     color: rgb(59, 59, 59);
     margin-bottom: 40px;
 }
-.half-width a{
+.link-button{
     text-decoration: none;
     padding: 15px 50px;
     font-weight: 900;
@@ -57,7 +57,7 @@ p{
     font-weight: 900;
     text-align: center;
 }
-.card{
+.mission-section .card{
     width: 26%;
     padding: 35px;
     border-radius: 20px;
@@ -78,10 +78,6 @@ p{
 .article-section, .community-section, .member-section{
     margin-top: 100px;
 }
-.article-section .shape-image img{
-    width: 300px;
-    height: 300px;
-}
 .article-section .half-width img{
     width: 430px;
     height: 410px;
@@ -92,7 +88,7 @@ p{
     color: rgba(0, 0, 0, 0.822);
     font-weight: 900;
 }
-.article-section .half-width span, .community-section .half-width span{
+.article-section .half-width span{
     display: block;
 }
 .tomato-text{
@@ -103,9 +99,6 @@ p{
     height: 410px;
     margin-left: 80px;
 }
-
-
-
 .member-section h1{
     font-size: 35px;
     margin-bottom: 40px;
@@ -134,7 +127,6 @@ p{
 .member-section .member a:hover{
     color: #fd8d2b;
 }
-
 footer{
     background-color: #0B0D17;
     padding: 50px 0;
@@ -146,7 +138,6 @@ footer h1{
     letter-spacing: 1.5px;
     font-weight: 400;
     font-size: 40px;
-    margin: 0;
 }
 footer h4{
     color: rgba(255, 255, 255, 0.616);
