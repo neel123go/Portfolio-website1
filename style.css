@@ -26,11 +26,11 @@ body{
     margin-top: 30px;
 }
 .yellow-text{
-    color: #ffa95e;
+    color: #fb9740;
 }
-.half-width p{
+p{
     font-size: 18px;
-    color: rgb(70, 70, 70);
+    color: rgb(59, 59, 59);
     margin-bottom: 40px;
 }
 .half-width a{
@@ -75,22 +75,80 @@ body{
 #card3{
     background-color: #FFF4D6;
 }
-.article-section{
+.article-section, .community-section, .member-section{
     margin-top: 100px;
+}
+.article-section .shape-image img{
+    width: 300px;
+    height: 300px;
 }
 .article-section .half-width img{
     width: 430px;
     height: 410px;
     margin-right: 80px;
 }
-.article-section .half-width h1{
+.article-section .half-width h1, .community-section .half-width h1{
     font-size: 40px;
     color: rgba(0, 0, 0, 0.822);
     font-weight: 900;
 }
-.article-section .half-width span{
+.article-section .half-width span, .community-section .half-width span{
     display: block;
 }
 .tomato-text{
     color: tomato;
+}
+.community-section .half-width img{
+    width: 430px;
+    height: 410px;
+    margin-left: 80px;
+}
+
+
+
+.member-section h1{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.member-section .member{
+    width: 21%;
+    border: 2px solid tomato;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+.member-section .member img{
+    width: 180px;
+    height: 180px;
+}
+.member-section .member h4{
+    letter-spacing: 0.8px;
+    color: rgb(83, 83, 83);
+    margin-top: -15px;
+}
+.member-section .member a{
+    text-decoration: none;
+    color: tomato;
+    font-weight: 700;
+}
+.member-section .member a:hover{
+    color: #fd8d2b;
+}
+
+footer{
+    background-color: #0B0D17;
+    padding: 50px 0;
+    text-align: center;
+}
+footer h1{
+    color: white;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+}
+footer h4{
+    color: rgba(255, 255, 255, 0.616);
+    font-weight: 100;
 }
