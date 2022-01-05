@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 80px 150px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-section .half-width{
+    width: 40%;
+}
+.banner-section .half-width .tittle{
+    border-left: 5px solid tomato;
+}
+.banner-section .half-width .tittle h1{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.822);
+    margin-left: 10px;
+    line-height: 0.7;
+}
+.banner-section .half-width .tittle span{
+    display: block;
+    margin-top: 30px;
+}
+.yellow-text{
+    color: #ffa95e;
+}
+.banner-section .half-width p{
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    margin-bottom: 40px;
+}
+.banner-section .half-width a{
+    text-decoration: none;
+    padding: 15px 50px;
+    font-weight: 900;
+    color: wheat;
+    background: tomato;
+    border-radius: 5px;
+}
+.banner-section .half-width h5{
+    font-weight: 400;
+    color: rgb(70, 70, 70);
+    margin-top: 40px;
+    font-size: 18px;
+}
+.banner-section .half-width img{
+    width: 450px;
+    height: 450px;
+}
