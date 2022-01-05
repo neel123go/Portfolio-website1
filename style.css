@@ -28,12 +28,12 @@ body{
 .yellow-text{
     color: #ffa95e;
 }
-.banner-section .half-width p{
+.half-width p{
     font-size: 18px;
     color: rgb(70, 70, 70);
     margin-bottom: 40px;
 }
-.banner-section .half-width a{
+.half-width a{
     text-decoration: none;
     padding: 15px 50px;
     font-weight: 900;
@@ -74,4 +74,23 @@ body{
 }
 #card3{
     background-color: #FFF4D6;
+}
+.article-section{
+    margin-top: 100px;
+}
+.article-section .half-width img{
+    width: 430px;
+    height: 410px;
+    margin-right: 80px;
+}
+.article-section .half-width h1{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.822);
+    font-weight: 900;
+}
+.article-section .half-width span{
+    display: block;
+}
+.tomato-text{
+    color: tomato;
 }
